@@ -1,0 +1,130 @@
+body {
+    margin: 0; 
+    background: #1C1C1C;
+}
+
+#box {
+    background: #1F2937;
+    width: 550px; 
+    height: 550px; 
+    margin: 100px auto; 
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;    
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+}
+
+#header {
+    padding-top: 70px; 
+    padding-bottom: 0; 
+    margin-left: 52px;
+    margin-right: 144px; 
+    color: white; 
+}
+
+#bolt {
+    color: white; 
+    padding-right: 15px; 
+}
+#second_line {
+    color: #4ADF86;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 0;
+    margin-left: 52px;
+    margin-right: 126px; 
+    margin-bottom: 0; 
+    color: #D5D4D8;
+}
+
+#button1 {
+    margin-top: 51px; 
+    margin-left: 52px;
+    margin-bottom: 0; 
+    border: none; 
+    color: white; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #10B981;
+    width: 223px;
+    height: 42px; 
+    border-radius: 6px; 
+}
+
+input {
+    width: 50px; 
+    margin-left: 10px; 
+    border-radius: 2px; 
+    border: none; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 3px; 
+}
+
+.horizontal_line {
+    margin-top: 35px; 
+    margin-bottom: 0; 
+    border: 1px solid #2F3E53; 
+    text-align: center; 
+    width: 446px; 
+}
+
+.margin_top25 {
+    margin-top: 25px; 
+}
+
+.password_box {
+    display: flex; 
+    justify-content: center; 
+}
+
+.passwords { 
+    background-color: #273549; 
+    padding: 10px 99px; 
+    border-radius: 6px; 
+    border: none;
+    resize: none;  
+    max-width: 211px; 
+    max-height: 39px;
+    margin-bottom: 27px; 
+    margin-right: 12px;
+    overflow: hidden; 
+    margin-left: 12px;
+} 
+
+button:active {
+    box-shadow: 2px 2px #6e7279;
+}
+
+.ellipsis {
+    display: flex;
+    justify-content: center;
+    color: #202B3C;
+    text-shadow: 0px 0px 1.5px black; 
+    font-size: 16px; 
+}
+
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0; 
+    padding: 0;
+    color: white; 
+    font-size: 10px; 
+    text-align: center; 
+    margin-top: 10px; 
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+    </head>
+    <body>
+        <div id = "box">
+            <h1 id="header">Generate a <span id = "second_line"><br>random password</br></span></h1>
+            <p id="paragraph-el">Never use an insecure password again</p>
+            <button onclick="generatePassword()" id="button1"><i class='fa fa-bolt' id = "bolt"></i>Generate passwords</button>
+            <input id = "input-el" type = "number" placeholder = "Size...">
+            <hr class = "horizontal_line">
+            <h4 id = "confirm_copy">Click to copy!</h4>
+            <div class = "margin_top25">
+                <div class = "password_box">
+                    <button onclick="copy1()" id = "password1" class="passwords"><span id="new" class = "ellipsis">...</span></button>
+                    <button onclick="copy2" id = "password2" class="passwords"><span class = "ellipsis">...</span></button>
+                </div>
+                <div class = "password_box">
+                    <button onclick="copy3" id = "password3" class="passwords"><span class = "ellipsis">...</span></button>
+                    <button onclick="copy4" id = "password4" class="passwords"><span class = "ellipsis">...</span></button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
