@@ -40,8 +40,6 @@ function generatePassword(){
             password4El.style.color = "#55F991"
         }
     }
-    password1El.style.display = "flex";
-    newEl.style.justifyContent = "center";
     confirmcopyEl.textContent = "Click to copy!"
 }
 
@@ -88,5 +86,4 @@ function copy4(){
     inputElement.parentNode.removeChild(inputElement)
     confirmcopyEl.textContent = "Copy Success!"
 }
-
 
