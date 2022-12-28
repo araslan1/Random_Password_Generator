@@ -63,7 +63,9 @@ p {
 }
 
 input {
-    width: 50px; 
+    background-color: #273549; 
+    color: white;
+    width: 56px; 
     margin-left: 10px; 
     border-radius: 2px; 
     border: none; 
@@ -71,6 +73,10 @@ input {
     font-style: normal;
     font-weight: 500;
     border-radius: 3px; 
+}
+
+::placeholder {
+    color: white;
 }
 
 .horizontal_line {
